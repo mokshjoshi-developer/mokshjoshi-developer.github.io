@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Space';
+    font-family: 'Space-grotesk';
     src: url(SpaceGrotesk-VariableFont_wght.ttf);
 }
 
@@ -16,7 +16,7 @@ html {
 body {
     background-color: black;
     color: white;
-    font-family: 'Space';
+    font-family: 'Space-grotesk';
 }
 
 h1 {
@@ -289,3 +289,4 @@ header {
     }
 
 }
+
