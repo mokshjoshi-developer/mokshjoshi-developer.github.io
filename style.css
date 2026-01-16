@@ -133,6 +133,9 @@ header {
 }
 
 .badge {
+    position: relative;
+    bottom: 0;
+    transition: all 0.1 ease-in;
     color: black;
     background-color: white;
     display: flex;
@@ -143,6 +146,9 @@ header {
     border-radius: 7px;
     font-weight: bold;
 }
+
+.badge:hover {
+    bottom: 5px;
 
 .icon {
     width: 23px;
@@ -296,5 +302,6 @@ header {
     }
 
 }
+
 
 
